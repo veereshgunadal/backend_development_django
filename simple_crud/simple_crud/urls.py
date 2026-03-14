@@ -20,5 +20,7 @@ from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('get/',views.get)
+    path('get/',views.get),
+    path('post/',views.post),
+    path('delete/',views.delete)
 ]
